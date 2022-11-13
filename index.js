@@ -4,7 +4,8 @@ import cors from 'cors';
 const app = express();
 app.use(express.json());
 app.use(cors({ origin: '*' }))
-const PORT = process.env.PORT || 4000;
+
+const PORT = process.env.PORT;
 
 
 //create connections
